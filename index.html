@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -10,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/Header.css" />
   </head>
   <body>
     <!--------- Navbar -------->
@@ -17,7 +19,7 @@
       <div class="container">
         <nav class="flex j-between navbar a-center">
           <div class="md-d-none">
-            <ul class="flex gap-x-67">
+            <ul class="flex gap-x-67 md-gap-40">
               <li><a href="#PRODUZENTEN" class="list-item">PRODUZENTEN</a></li>
               <li><a href="#EINKÄUFER" class="list-item">EINKÄUFER</a></li>
               <li><a href="#SORTIMENT" class="list-item">SORTIMENT</a></li>
@@ -27,7 +29,7 @@
             <img src="./assets/images/18.png" alt="icon" class="mb-10" />
           </div>
           <div>
-            <ul class="flex gap-x-67 md-gap-0">
+            <ul class="flex gap-x-67 md-gap-40">
               <li>
                 <a href="#ÜBER UNS" class="list-item md-d-none">ÜBER UNS</a>
               </li>
@@ -59,28 +61,34 @@
     <!----------Banner ------->
     <section class="banner-bg block darken-overlay">
       <!-- <div class="darken-overlay"></div> -->
-      <div class="flex flex-col j-center a-center h-100">
-        <div class="inner-container">
-          <h1 class="heading darken-with-text banner-title mb-50">
+      <div class="flex flex-col j-center a-center h-100 w-100">
+        <div class="container w-100">
+          <h1
+            class="darken-with-text heading banner-title xl-mb-130 heading-py"
+          >
             Bardini & KELLER
           </h1>
-          <p class="darken-with-text font-20">
-            Seit mehr als 60 Jahren stehen wir, bardini+keller ag, für höchste
-            Qualität und Zuverlässigkeit im internationalen Vertrieb von
-            Früchten und Gemüse. Unser professionelles Produkt-Know-how und
-            unser personalisierter Handel haben uns zu einem führenden,
-            vollständig zertifizierten Partner in Zentraleuropa gemacht. Durch
-            unsere präzise Logistik und unser tiefgreifendes Qualitätsmanagement
-            garantieren wir unseren Partnern ein komplettes Sortiment und lang
-            währenden, gemeinsamen Erfolg.
-          </p>
+          <div class="inner-container">
+            <p class="darken-with-text font-20 sm-font-18">
+              Seit mehr als 60 Jahren stehen wir, bardini+keller ag, für höchste
+              Qualität und Zuverlässigkeit im internationalen Vertrieb von
+              Früchten und Gemüse. Unser professionelles Produkt-Know-how und
+              unser personalisierter Handel haben uns zu einem führenden,
+              vollständig zertifizierten Partner in Zentraleuropa gemacht. Durch
+              unsere präzise Logistik und unser tiefgreifendes
+              Qualitätsmanagement garantieren wir unseren Partnern ein
+              komplettes Sortiment und lang währenden, gemeinsamen Erfolg.
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <!----------Cards----------->
     <section class="text-center bg-peach p-main">
-      <div class="container mb-80">
-        <h1 class="heading mb-50">KERNKOMPETENZEN</h1>
+      <div class="container mb-80 md-mb-0">
+        <h1 class="heading2 mb-50 flex j-center px-16 word-break-none">
+          KERNKOMPETENZEN
+        </h1>
         <div class="grid grid-column-3 md-grid-col-2 sm-grid-col-1 gap-32">
           <div class="bg-white card flex flex-col j-center">
             <a href="#">
@@ -146,40 +154,123 @@
       </div>
     </section>
     <!---------USER TEAM ------->
-    <section class="text-center bg-peach pb-190">
+    <section class="text-center bg-peach pb-190 md-pb-110">
       <div class="container">
-      <div class="mb-90"><h1 class="heading">user steam</h1></div>
-        <div class="row">
-          <div class="column">
-            <img src="./assets/images/9.png" alt="" class="w-100" />
+        <div class="mb-90 sm-mb-50"><h1 class="heading">user steam</h1></div>
+        <div class="grid grid-column-3 md-grid-col-2 sm-grid-col-1">
+          <!-- <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-back">back</div>
+              <div class="flip-card-front">
+                <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+              </div>
+            </div>
           </div>
-         
-          <div class="column">
-            <img src="./assets/images/6.png" alt="" class="w-100" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-back">back</div>
+              <div class="flip-card-front">
+                <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+              </div>
+            </div>
           </div>
-          <div class="column">
-            <img src="./assets/images/12.png" alt="" class="w-100" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-back">back</div>
+              <div class="flip-card-front">
+                <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+              </div>
+            </div>
           </div>
-          <div class="column">
-            <img src="./assets/images/8.png" alt="" class="w-100" />
-          </div>
-          <div class="column">
-            <img src="./assets/images/10.png" alt="" class="w-100" />
-          </div>
-          <div class="column">
-            <img src="./assets/images/9.png" alt="" class="w-100" />
-          </div>
-          <div class="column">
-            <img src="./assets/images/6.png" alt="" class="w-100" />
-          </div>
-          <div class="column">
-            <img src="./assets/images/9.png" alt="" class="w-100" />
-          </div>
-        </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-back">back</div>
+              <div class="flip-card-front">
+                <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+              </div>
+            </div>
+          </div> -->
 
-       
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="./assets/images/10.png"
+                    alt="Avatar"
+                    class="w-100"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./assets/images/6.png" alt="Avatar" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./assets/images/9.png" alt="Avatar" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    
+
     <!----------Foooter ------->
     <section class="p-40">
       <footer class="container">
